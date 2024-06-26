@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+section{
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+.design-one{
+    display: flex;
+    background: linear-gradient(75deg, rgb(74, 99, 245) 0%, #ffebf4 100%);
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.design-one .company-logo{
+    height: 50px;
+    margin-top: 20px;
+}
+.design-one .socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 0.5rem;
+}
+.design-one .content{
+    padding-right: 20rem;
+    padding: 20px;
+}
+.design-one .disclaimer{
+    font-size: 0.8rem;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.design-two{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 1px;
+    padding-left: 20px;
+    align-items: center;
+    background: rgb(184, 140, 224);
+}
+.design-two .company-logo{
+    height: 100px;
+}
+.design-two .navigation{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.design-two .navigation a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.design-two .navigation .call-to-action{
+    border: 3px;
+    padding: 0.5rem 1rem;
+    border-radius: 19px;
+    color: rgb(255, 213, 3);
+}
+.design-three {
+    display: flex;
+    background-color: rgb(247, 154, 208);
+    align-items: flex-end;
+    width: calc(100% - 1rem);
+    justify-content: center;
+    padding: 0.7rem 14vw;
+    border-radius: 5px;
+}
+.design-three .navigation {
+    display: flex;
+    gap: 4.5rem;
+    align-items: center;
+}
+.design-three .navigation .nav-button {
+    font-weight: 400;
+    font-size: 1.1rem;
+    border: 3px rgb(27, 30, 228) solid;
+    padding: 0.5rem 1rem;
+    border-radius: 19px;
+    color: rgb(255, 255, 255);
+}
+.design-three .navigation .bi {
+    font-size: 2.5rem;
+}
+.company-logo {
+    height: 100px;
+}
+.design-four {
+    display: flex;
+    padding: 2px;
+    width: calc(100% - 1rem);
+    align-items: center;
+    background: rgba(227,96,234,255);
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.design-four .company-logo {
+    height: 70px;
+}
+.design-four .navigation {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    color: rgb(0, 0, 0);
+}
+.design-four .fa-circle-user {
+    color: rgb(23,73,157);
+}
+.design-four .navigation-content {
+    color: rgb(5, 4, 4);
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;}
+.design-five {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    background: rgb(184, 140, 224);
+}
+.design-five > img.company-logo {
+    height: 70px;
+}
+.design-five .navigation-5 {
+    display: flex;
+    width: 10vw;
+    gap: 4rem;
+    color: rgb(255, 255, 255);
+}
+.design-five > a.navigation-content {
+    color: rgb(255, 255, 255);
+}
+.design-six-animation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(97,194,239);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    width: 100%;
+    & .logo img{
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        margin: 10px;
+    }
+    .name h1{
+            margin: 10px;
+            transition: 1s;
+            &:hover{
+                color: black;
+            }
+    }
+    & .icons{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        & i{
+            font-size: 30px;
+            margin: 10px;
+            transition: 1s;
+            &:hover{
+                color: black;
+                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+        }
+    }
+}
+.design-seven-animation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+    background-color: rgb(184, 140, 224);
+}
+.design-seven-animation .pop-up {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+.design-seven-animation .company-logo {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+.design-seven-animation .popup-text {
+    color: transparent;
+    transform: translateX(-5rem);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.design-seven-animation:hover .company-logo {
+    transform: rotate(360deg);
+}
+.design-seven-animation:hover .popup-text {
+    color: #a4dcf7;
+    transform: translateX(0);
+    opacity: 1;
+}
+.design-seven-animation .navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.design-seven-animation .navigation-content {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.2s ease;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 18px;
+}
+.design-seven-animation .navigation-content:hover {
+    background: rgb(10, 1, 1);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 0px 0px #26adec;
+    border: 1px #61c2ef solid;
+}
+.design-eight-animation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 10%;
+    background-color: #e263eb;
+}
+.design-eight-animation .company-logo {
+    height: 80px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.design-eight-animation .navigation {
+    display: flex;
+    gap: 2rem;
+}
+.design-eight-animation .navigation-content {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.3s ease;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+.design-eight-animation .navigation-content:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.design-eight-animation .navigation-content:hover:before {
+    width: 100%;
+    background-color: rgb(97,194,239);
+}

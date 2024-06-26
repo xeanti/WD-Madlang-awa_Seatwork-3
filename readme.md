@@ -4,9 +4,9 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/dreamyytimmyy">
+  <a href="https://github.com/xeanti">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/logo.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.png" alt="Xeanti" width="200" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3</h3>
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=dreamyytimmyy/WD-Madlang-awa_Seatwork-3)
+![](https://visit-counter.vercel.app/counter.png?page=xeanti/WD-Madlang-awa_Seatwork-3)
 
 ---
 
@@ -95,7 +95,7 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ header/footer
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
@@ -113,4 +113,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Icons | Icons i needed in this html | https://fontawesome.com/ |
