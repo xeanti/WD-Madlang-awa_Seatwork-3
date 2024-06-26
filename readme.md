@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=dreamyytimmyy/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=dreamyytimmyy/WD-Madlang-awa_Seatwork-3)
 
 ---
 
@@ -59,11 +59,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The purpose of this website is to demonstrate how to create and implement effective headers and footers for a website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
