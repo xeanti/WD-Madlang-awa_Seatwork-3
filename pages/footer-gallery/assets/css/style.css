@@ -43,7 +43,7 @@ section{
     padding-right: 20rem;
     padding: 20px;
 }
-.design-one .disclaimer{
+.design-one .copyright{
     font-size: 0.8rem;
     width: 5vw;
     display: flex;
@@ -163,21 +163,22 @@ section{
     padding: 10px;
     padding-left: 20px;
     width: 100%;
-    & .logo img{
+}
+.design-six-animation .logo img{
         width: 100px;
         align-items: center;
         justify-content: center;
         height: 100px;
         margin: 10px;
-    }
-    .name h1{
-            margin: 10px;
-            transition: 1s;
-            &:hover{
-                color: black;
+}
+.design-six-animation .name h1{
+    margin: 10px;
+    transition: 1s;
+    &:hover{
+        color: black;
             }
-    }
-    & .icons{
+}
+.design-six-animation .icons{
         color: white;
         display: flex;
         flex-direction: row;
@@ -195,13 +196,14 @@ section{
             }
         }
     }
-}
+
 .design-seven-animation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 10%;
     background-color: rgb(184, 140, 224);
+    width: 100%;
 }
 .design-seven-animation .pop-up {
     display: flex;
@@ -253,6 +255,7 @@ section{
     align-items: center;
     padding: 3rem 10%;
     background-color: #e263eb;
+    width: 100%;
 }
 .design-eight-animation .company-logo {
     height: 80px;
@@ -283,4 +286,81 @@ section{
 .design-eight-animation .navigation-content:hover:before {
     width: 100%;
     background-color: rgb(97,194,239);
+}
+.design-nine-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 10%;
+    background-color: #26adec;
+    border-radius: 10px;
+    width: 100%;
+}
+.design-nine-animation .company-logo{
+    height: 120px;
+    transition: transform 0.3s ease;
+}
+.design-nine-animation .company-logo:hover{
+    transform: scale(1.1);
+}
+.design-nine-animation .navigation{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.design-nine-animation .navigation a{
+    display: inline-block;
+    position: relative;
+    font-size: 2.5rem;
+    color: #e263eb;
+    transition: transform 0.3s ease;
+}
+.design-nine-animation .navigation a:hover{
+    transform: translateY(-5px);
+}
+.design-ten-animation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 10%;
+    background-color: rgb(184, 140, 224);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.design-ten-animation .company-logo{
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+.design-ten-animation .name{
+    color: #f10972;
+    transform: translateY(20px) scale(0);
+    transition: transform 0.3s ease;
+}
+.design-ten-animation:hover .name{
+    transform: translateY(0) scale(1);
+}
+.design-ten-animation .navigation{
+    display: flex;
+    gap: 1rem;
+}
+.design-ten-animation .navigation-content{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: rgb(46, 2, 241);
+    transition: all 0.3s ease;
+    position: relative;
+}
+.design-ten-animation .navigation-content:before{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.design-ten-animation .navigation-content:hover:before{
+    width: 100%;
+    background-color: #f7a4d5;
 }
