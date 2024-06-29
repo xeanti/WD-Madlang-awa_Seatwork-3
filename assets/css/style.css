@@ -35,6 +35,18 @@ section.container
     align-items: center;
     row-gap: 1rem;
 }
+div.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 section.container h1
 {
     font-size: 3rem;
