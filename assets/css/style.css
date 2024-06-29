@@ -45,6 +45,7 @@ div.text{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1rem;
     }
 }
 section.container h1
