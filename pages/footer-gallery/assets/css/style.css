@@ -25,12 +25,16 @@ section{
 .design-one{
     display: flex;
     background: linear-gradient(75deg, rgb(74, 99, 245) 0%, #ffebf4 100%);
-    align-items: flex-start;
-    padding-left: 20px;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100vw;
+    justify-content: space-between;
 }
 .design-one .company-logo{
-    height: 50px;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
 }
 .design-one .socials{
     display: flex;
@@ -43,81 +47,98 @@ section{
     padding-right: 20rem;
     padding: 20px;
 }
-.design-one .copyright{
-    font-size: 0.8rem;
-    width: 5vw;
-    display: flex;
-    align-items: center;
-    height: 100%;
+.design-one .content h3{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.design-one .content ul{
+    list-style: none;
+    padding: 0;
+}
+.design-one .content ul li{
+    margin-bottom: 10px;
+}
+.design-one .content ul li a{
+    color: black;
+    text-decoration: none;
 }
 .design-two{
     display: flex;
-    width: 100vw;
     justify-content: space-between;
-    padding: 1px;
-    padding-left: 20px;
     align-items: center;
-    background: rgb(184, 140, 224);
+    padding: 10px 20px;
+    width: 100vw;
+    margin: 10px 0;
+    background: linear-gradient(75deg, rgb(255, 255, 255) 0%, #7468df 100%);
 }
 .design-two .company-logo{
-    height: 100px;
+    height: 150px;
 }
-.design-two .navigation{
+.design-two .section{
     display: flex;
-    gap: 1rem;
-    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0 auto;
 }
-.design-two .navigation a {
+.design-two .content h3{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.design-two .content ul{
+    list-style: none;
+    padding: 0;
+}
+.design-two .content ul li{
+    margin-bottom: 10px;
+}
+.design-two .content ul li a{
     color: black;
     text-decoration: none;
-    font-weight: bold;
 }
-.design-two .navigation .call-to-action{
-    border: 3px;
-    padding: 0.5rem 1rem;
-    border-radius: 19px;
-    color: rgb(255, 213, 3);
-}
-.design-three {
+.design-three{
     display: flex;
-    background-color: rgb(247, 154, 208);
+    background: linear-gradient(90deg, rgb(197, 123, 89) 0%, #ffffff 100%);
     align-items: flex-end;
     width: calc(100% - 1rem);
     justify-content: center;
     padding: 0.7rem 14vw;
     border-radius: 5px;
 }
-.design-three .navigation {
+.design-three .navigation{
     display: flex;
     gap: 4.5rem;
     align-items: center;
 }
-.design-three .navigation .nav-button {
+.design-three .navigation .nav-button{
     font-weight: 400;
     font-size: 1.1rem;
     border: 3px rgb(27, 30, 228) solid;
     padding: 0.5rem 1rem;
     border-radius: 19px;
-    color: rgb(255, 255, 255);
+    color: black;
 }
-.design-three .navigation .bi {
+.design-three .navigation .bi{
     font-size: 2.5rem;
 }
-.company-logo {
+.company-logo{
     height: 100px;
 }
-.design-four {
+.design-four{
+    position: relative;
+    width: 100vw;
+    height: 250px;
     display: flex;
-    padding: 2px;
-    width: calc(100% - 1rem);
-    align-items: center;
-    background: rgba(227,96,234,255);
+    flex-direction: column;
     justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    align-items: center;
+    padding: 0.7rem 10vw;
+    background: linear-gradient(90deg, #FA8BFF 0%, #ffffff 100%);
 }
 .design-four .company-logo {
     height: 70px;
+    align-self: flex-start;
 }
 .design-four .navigation {
     align-items: center;
@@ -125,15 +146,17 @@ section{
     gap: 2rem;
     color: rgb(0, 0, 0);
 }
-.design-four .fa-circle-user {
-    color: rgb(23,73,157);
-}
 .design-four .navigation-content {
     color: rgb(5, 4, 4);
     font-weight: 700;
     font-size: 1.2rem;
-    font-family: 'Courier New', Courier, monospace;}
-.design-five {
+}
+.design-four .icons{
+    display: flex;
+    gap: 20px;
+    color: rgb(23,73,157);
+}
+.design-five{
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -141,113 +164,93 @@ section{
     padding: 0.7rem 10vw;
     background: rgb(184, 140, 224);
 }
-.design-five > img.company-logo {
+.design-five img.company-logo{
     height: 70px;
 }
-.design-five .navigation-5 {
+.design-five .nav-5{
     display: flex;
     width: 10vw;
-    gap: 4rem;
+    gap: 1rem;
     color: rgb(255, 255, 255);
 }
-.design-five > a.navigation-content {
+.design-five .nav-5.content{
     color: rgb(255, 255, 255);
 }
 .design-six-animation{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(97,194,239);
-    color: white;
-    padding: 10px;
-    padding-left: 20px;
-    width: 100%;
+    width: 100vw;
+    background: linear-gradient(75deg, rgb(74, 99, 245) 0%, #ffebf4 100%);
+    margin: 10px 0;
 }
-.design-six-animation .logo img{
-        width: 100px;
-        align-items: center;
-        justify-content: center;
-        height: 100px;
-        margin: 10px;
+.design-six-animation .company-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
 }
-.design-six-animation .name h1{
-    margin: 10px;
-    transition: 1s;
-    &:hover{
-        color: black;
-            }
+.design-six-animation .content h3{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
-.design-six-animation .icons{
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        & i{
-            font-size: 30px;
-            margin: 10px;
-            transition: 1s;
-            &:hover{
-                color: black;
-                box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-                -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-            }
-        }
-    }
-
-.design-seven-animation {
+.design-six-animation .content ul{
+    list-style: none;
+    padding: 0;
+}
+.design-six-animation .content ul li{
+    margin-bottom: 10px;
+}
+.design-six-animation .content ul li a{
+    color: black;
+    text-decoration: none;
+}
+.design-six-animation .content ul li a:hover{
+    border-bottom: solid 1px black;
+    width: 10vw;
+}
+.design-seven-animation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 10%;
-    background-color: rgb(184, 140, 224);
-    width: 100%;
+    padding: 10px 20px;
+    width: 100vw;
+    margin: 10px 0;
+    background: linear-gradient(75deg, rgb(255, 255, 255) 0%, #7468df 100%);
 }
-.design-seven-animation .pop-up {
+.design-seven-animation .company-logo{
+    height: 150px;
+}
+.design-seven-animation .section{
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    position: relative;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0 auto;
 }
-.design-seven-animation .company-logo {
-    height: 60px;
-    transition: transform 0.3s ease;
+.design-seven-animation .content h3{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
-.design-seven-animation .popup-text {
-    color: transparent;
-    transform: translateX(-5rem);
-    transition: all 0.3s ease;
-    opacity: 0;
+.design-seven-animation .content ul{
+    list-style: none;
+    padding: 0;
 }
-.design-seven-animation:hover .company-logo {
-    transform: rotate(360deg);
+.design-seven-animation .content ul li{
+    margin-bottom: 10px;
 }
-.design-seven-animation:hover .popup-text {
-    color: #a4dcf7;
-    transform: translateX(0);
-    opacity: 1;
+.design-seven-animation .content ul li a{
+    color: black;
+    text-decoration: none;
 }
-.design-seven-animation .navigation {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.design-seven-animation .company-logo:hover {
+  transform: rotate(360deg);
+  transition: 1s linear;
 }
-.design-seven-animation .navigation-content {
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: white;
-    transition: 0.2s ease;
-    padding: 0.5rem 1rem;
-    border: 1px solid transparent;
-    border-radius: 18px;
-}
-.design-seven-animation .navigation-content:hover {
-    background: rgb(10, 1, 1);
-    transform: translate(-5px, -5px);
-    box-shadow: 5px 5px 0px 0px #26adec;
-    border: 1px #61c2ef solid;
+.design-seven-animation .content ul li a:hover {
+  border-bottom: solid 1px black;
+  width: 10vw;
 }
 .design-eight-animation {
     display: flex;
