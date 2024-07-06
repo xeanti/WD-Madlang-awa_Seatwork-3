@@ -244,52 +244,63 @@ section{
     color: black;
     text-decoration: none;
 }
-.design-seven-animation .company-logo:hover {
+.design-seven-animation .company-logo:hover{
   transform: rotate(360deg);
   transition: 1s linear;
 }
-.design-seven-animation .content ul li a:hover {
+.design-seven-animation .content ul li a:hover{
   border-bottom: solid 1px black;
   width: 10vw;
 }
-.design-eight-animation {
+.design-eight-animation{
+    position: relative;
+    width: 100vw;
+    height: 250px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 3rem 10%;
-    background-color: #e263eb;
-    width: 100%;
+    padding: 0.7rem 10vw;
+    background-color: #FA8BFF;
 }
-.design-eight-animation .company-logo {
-    height: 80px;
-    transition: transform 0.3s ease, filter 0.3s ease;
+.design-eight-animation .company-logo{
+    height: 100px;
+    align-self: flex-start;
+    margin-top: 30px;
 }
-.design-eight-animation .navigation {
+.design-eight-animation .company-logo:hover{
+    animation: bounce 2s;
+    transform: scale(1.5);
+}
+@keyframes bounce {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.design-eight-animation .navigation{
     display: flex;
-    gap: 2rem;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 20px;
 }
-.design-eight-animation .navigation-content {
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: white;
-    transition: all 0.3s ease;
-    padding-bottom: 0.5rem;
+.design-eight-animation .navigation-content{
+    display: flex;
+    align-items: flex-start;
     position: relative;
 }
-.design-eight-animation .navigation-content:before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 3px;
-    background-color: transparent;
-    transition: all 0.3s ease;
-}
-.design-eight-animation .navigation-content:hover:before {
-    width: 100%;
-    background-color: rgb(97,194,239);
-}
+
 .design-nine-animation{
     display: flex;
     justify-content: center;
