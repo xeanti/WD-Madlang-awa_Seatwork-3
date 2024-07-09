@@ -16,7 +16,7 @@ body
     height: fit-content;
     width: 100vw;
     overflow-x: hidden;
-    background-color: #FFCBCB;
+    background-color: white;
 }
 section
 {
@@ -26,58 +26,57 @@ section
     gap: 1rem;
     align-items: flex-end;
 }
-.design-one
-{
-    height: 90px;
-    width: 100vw;
+.design-one{
     display: flex;
     justify-content: space-between;
-    padding: 0.7rem 10vw;
-    background: #e360ea;
-
-& > img.company-logo{
-    height: 70px;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(75deg, #7468df 0%, white 100%);
 }
-& > nav.navigation{
+.design-one .company-logo{
+    height: 100px;
+    margin-left: 1rem;
+}
+.design-one nav.navigation{
     display: flex;
     align-items: center;
     gap: 1rem;
-& > a.nagivation-content{
+}
+.design-one a.nagivation-content{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0,5rem;
+    color: black;
+}
+.design-one .search{
+    display: flex;
+}
+.design-two{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem 10vw;
+    background: linear-gradient(75deg, #89CFF0 0%, #0D47A1 100%);
+}
+.design-two .company-logo{
+    height: 70px;
+}
+.design-two .navigation{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.design-two .navigation-content{
     font-weight: 600;
     font-size: 1.1rem;
     color: black;
-    }
 }
-}
-.design-two
-{
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.7rem 10vw;
-    align-items: center;
-    background: #87CEEB;
-
-& > img.company-logo{
-    height: 70px;
-    }
-& > .navigation{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-
-& > .navigation-content{
-    color: rgb(255, 255, 255);
-    font-weight: 800;
-    font-size: 1.2rem;
-}
-& > .call-to-action {
-    border: 3px black solid;
+.design-two .call-to-action {
     padding: 0.5rem 1rem;
-    border-radius: 19px;
+    border-radius: 5px;
     color: black;
-}
-}
 }
 .design-three
 {
@@ -154,86 +153,59 @@ section
       color: rgb(0, 0, 0);
     }
 }
-.design-six-animation
-{
-    width: 100vw;
+.design-six-animation{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 0 10vw;
-    height: calc(50px + 1rem);
     align-items: center;
-    background: #e360ea;
-& > img.company-logo{
-    height: 60px;
-    padding: 0.2rem 0;
-    transition: transform 0.4s ease, filter 0.4s ease;
-
-&:hover{
-    transform: scale(1.2);
-    filter: hue-rotate(180deg);
+    background: linear-gradient(75deg, #F48FB1 0%, #FFD8DB 100%);
+    padding: 0.7rem 10vw;
+    width: 100vw;
 }
+.design-six-animation .company-logo{
+    height: 120px;
+    margin-left: 1rem;
+    transition: 1s;
 }
-& > nav.navigation{
-    display: flex;
-    align-items: center;
-    height: 100%;
-
-& > a.navigation-content{
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: white;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-    transition: transform 0.2s ease, color 0.2s ease;
-
+.design-six-animation .company-logo:hover{
+    transform: rotateZ(720deg);
+}
+.design-six-animation a.navigation-content {
+    color: #6E6E61;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all .5s;
     &:hover{
-        color: #87CEEB;
-        transform: scale(1.1);
+        background-color: #DE3163;
+        color: white;
+        box-shadow: 22px 10px 5px 6px rhgba(0, 0, 0, 0.73);
+        -webkit-box-shadow: 22px 10px 5px 6px #FF91A4;
+        -moz-box-shadow: 22px 10px 5px 6px rgba(255, 163, 232, 0.73);
     }
 }
-}
-}
-.design-seven-animation
-{
+.design-seven-animation{
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 0 10vw;
     height: calc(50px + 1rem);
-    align-items: center;
-    background: #87CEEB;
-
-    .pop-up{
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        position: relative;
-    }
-
-    .pop-up:hover .company-logo{
-        transform: rotateZ(720deg);
-    }
-
-    .pop-up:hover .popup-text{
-        color: #e360ea;
-        transform: translateX(0);
-        opacity: 1;
-    }
-    .company-logo{
-        height: 60px;
-        padding: 0.2rem 0;
-        transition: all 0.3s ease;
-    }
-
-    .popup-text{
-        color: transparent;
-        transform: translateX(-5rem);
-        transition: all 0.3s ease;
-        opacity: 0;
-    }
-    & > nav.navigation {
+    background: linear-gradient(75deg, #89CFF0 0%, #0D47A1 100%);
+    position: relative;
+}
+.design-seven-animation .company-logo{
+    height: 50px;
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 1;
+}
+.design-seven-animation .company-logo:hover{
+    opacity: 0;
+}
+.design-seven-animation nav.navigation {
     display: flex;
     align-items: center;
     height: 100%;
@@ -241,7 +213,7 @@ section
     & > a.navigation-content {
       font-weight: 600;
       font-size: 1.1rem;
-      color: white;
+      color: black;
       transition: 0.2s ease;
       height: 100%;
       display: flex;
@@ -250,15 +222,15 @@ section
       border: 1px transparent solid;
 
       &:hover {
-        background-color: black;
+        background-color: #89CFF0;
         transform: translate(-10px, -10px);
-        box-shadow: 10px 10px 0px 0px #e360ea;
-        border: 1px #87CEEB solid;
+        box-shadow: 10px 10px 0px 0px #3F51B5;
+        border: 1px #FFCF70 solid;
         border-radius: 18px;
       }
     }
 }
-}
+
 .design-eight-animation{
     background-color: blueviolet;
     display: flex;
