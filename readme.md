@@ -9,7 +9,7 @@
     <img src="./assets/img/logo.png" alt="Xeanti" width="200" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 3</h3>
+  <h3 align="center">Seatwork 3 Headers and Footers</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -57,7 +57,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
 The purpose of this website is to demonstrate how to create and implement effective headers and footers for a website.
 
@@ -65,14 +64,12 @@ The purpose of this website is to demonstrate how to create and implement effect
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
